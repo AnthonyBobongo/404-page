@@ -4,17 +4,118 @@
 
 * {
   margin: 0;
-  padding: 0;
+
 }
 
-.logo {
-position: absolute;
-top: 15px;
-left: 15px;
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
-.scarecrow{
-  height: px ;
-  width: 20px;
-  
+.container {
+  padding: 2em 6em;
+
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header {
+  height: 65px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  display: flex;
+  align-self: start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 2;
+  margin-top: 100px;
+ 
+
+}
+
+.main_image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.main_image img {
+  width: 85%;
+  height: 100%;
+}
+
+.error_message {
+  width: 50%;
+  padding: 32px;
+}
+
+.error_message h1 {
+
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-size: 4vw;
+  line-height: 6vw;
+  letter-spacing: normal;
+}
+
+.error_message p {
+  width: 400px;
+  margin-top: 32px;
+  font-family: 'Space Mono', monospace;
+  line-height: 36px;
+  font-size: 24px;
+
+}
+
+.error_message button {
+  background-color: #333333;
+  color: #FFFFFF;
+  margin-top: 3em;
+  border: none;
+  padding: 20px 30px;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+footer{
+  padding-top: 200px;
+}
+
+/* Mobile responsive area */
+
+@media screen and (max-width: 768px){
+  main {
+    padding: 0rem;
+    flex-direction: column;
+  }
+  .main_image img{
+    width: 100%;
+  }
+  .error_message { 
+    width: 100%;
+  }
+  .error_message p {
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px){
+  .container {
+    padding : 1.5rem;
+  }
