@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot]("https://user-images.githubusercontent.com/29877236/92777221-01c71d80-f36e-11ea-85a5-3a11afc93d06.png")
+<img width="1610" alt="Screen Shot 2020-09-10 at 1 59 45 PM" src="https://user-images.githubusercontent.com/29877236/92777221-01c71d80-f36e-11ea-85a5-3a11afc93d06.png">
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
