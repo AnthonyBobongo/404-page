@@ -44,7 +44,7 @@ main {
   align-items: center;
   flex-grow: 2;
   margin-top: 100px;
- 
+
 
 }
 
@@ -94,28 +94,38 @@ main {
 
 }
 
-footer{
+button:hover {
+  background-color: #555555;
+  transition: ease-in 03ms;
+
+}
+
+footer {
   padding-top: 200px;
 }
 
 /* Mobile responsive area */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   main {
     padding: 0rem;
     flex-direction: column;
   }
-  .main_image img{
+
+  .main_image img {
     width: 100%;
   }
-  .error_message { 
+
+  .error_message {
     width: 100%;
   }
+
   .error_message p {
     width: auto;
   }
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 500px) {
   .container {
-    padding : 1.5rem;
+    padding: 1.5rem;
   }
